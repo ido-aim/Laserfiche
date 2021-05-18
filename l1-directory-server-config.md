@@ -27,6 +27,6 @@ obtain activate keys from https://support.laserfiche.com/activationkeys/
 
 Note : As of July, 2020. Ditto has 20 Demo Licenses (30 Full users) and 1 Subscription License (5 Full users)
 
-[KmNmnFyiDDFD1GnsF63H7uyrGTrK8CXWa7UxEJ5v.png](https://tettra-production.s3.us-west-2.amazonaws.com/0d6efb4f154041e899af17bdcd19c1b5/da03ed883cdd7d743a3fdd74ff62975a/d822b155a4112474fdb7aea5ee22465e/09a2db589f601a66b75b3ab00cdfe769/KmNmnFyiDDFD1GnsF63H7uyrGTrK8CXWa7UxEJ5v.png)# Finished
+Note : Aso![KmNmnFyiDDFD1GnsF63H7uyrGTrK8CXWa7UxEJ5v.png](https://tettra-production.s3.us-west-2.amazonaws.com/0d6efb4f154041e899af17bdcd19c1b5/da03ed883cdd7d743a3fdd74ff62975a/d822b155a4112474fdb7aea5ee22465e/09a2db589f601a66b75b3ab00cdfe769/KmNmnFyiDDFD1GnsF63H7uyrGTrK8CXWa7UxEJ5v.png)# Finished
 
 ![ZzewhLVB1UhBDIgxvXdezDWeM2nsuf7ZYnCrtwSZ.png](https://tettra-production.s3.us-west-2.amazonaws.com/0d6efb4f154041e899af17bdcd19c1b5/da03ed883cdd7d743a3fdd74ff62975a/d822b155a4112474fdb7aea5ee22465e/09a2db589f601a66b75b3ab00cdfe769/ZzewhLVB1UhBDIgxvXdezDWeM2nsuf7ZYnCrtwSZ.png)
