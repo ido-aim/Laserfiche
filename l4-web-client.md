@@ -1,0 +1,14 @@
+Prerequisite :
+
+- Need Directory Server and Laserfiche Server
+- Web client needed URL rewrite installed
+
+recommended install with Chocolatey
+
+Web Client is also called Web Access
+
+![J7UHUbWFVdMf7vVSiI9zvksOmxBwsJOOv6gdhWgK.png](https://tettra-production.s3.us-west-2.amazonaws.com/0d6efb4f154041e899af17bdcd19c1b5/da03ed883cdd7d743a3fdd74ff62975a/d822b155a4112474fdb7aea5ee22465e/09a2db589f601a66b75b3ab00cdfe769/J7UHUbWFVdMf7vVSiI9zvksOmxBwsJOOv6gdhWgK.png)![xTLitp9784a80NgblamJAFtuJqYvkpLLsJ0oGGLR.png](https://tettra-production.s3.us-west-2.amazonaws.com/0d6efb4f154041e899af17bdcd19c1b5/da03ed883cdd7d743a3fdd74ff62975a/d822b155a4112474fdb7aea5ee22465e/09a2db589f601a66b75b3ab00cdfe769/xTLitp9784a80NgblamJAFtuJqYvkpLLsJ0oGGLR.png)![LobVrej9EB5Gk6eJt7stB1PUgs3L12FMuBEabqng.png](https://tettra-production.s3.us-west-2.amazonaws.com/0d6efb4f154041e899af17bdcd19c1b5/da03ed883cdd7d743a3fdd74ff62975a/d822b155a4112474fdb7aea5ee22465e/09a2db589f601a66b75b3ab00cdfe769/LobVrej9EB5Gk6eJt7stB1PUgs3L12FMuBEabqng.png)![e8hBRbouX6pdngB7vDjQkYoLYeLn3WiHSsXqRfZJ.png](https://tettra-production.s3.us-west-2.amazonaws.com/0d6efb4f154041e899af17bdcd19c1b5/da03ed883cdd7d743a3fdd74ff62975a/d822b155a4112474fdb7aea5ee22465e/09a2db589f601a66b75b3ab00cdfe769/e8hBRbouX6pdngB7vDjQkYoLYeLn3WiHSsXqRfZJ.png)![s1ZrmQgMzQgKnJcmp8G1I8qYCGNySSWdFdhcnXJt.png](https://tettra-production.s3.us-west-2.amazonaws.com/0d6efb4f154041e899af17bdcd19c1b5/da03ed883cdd7d743a3fdd74ff62975a/d822b155a4112474fdb7aea5ee22465e/09a2db589f601a66b75b3ab00cdfe769/s1ZrmQgMzQgKnJcmp8G1I8qYCGNySSWdFdhcnXJt.png)![bimVelF6lCtzbLktbp3str09VPQZ1QMEWWjqO8GX.png](https://tettra-production.s3.us-west-2.amazonaws.com/0d6efb4f154041e899af17bdcd19c1b5/da03ed883cdd7d743a3fdd74ff62975a/d822b155a4112474fdb7aea5ee22465e/09a2db589f601a66b75b3ab00cdfe769/bimVelF6lCtzbLktbp3str09VPQZ1QMEWWjqO8GX.png)# Finished
+
+try access configuration page at http://localhost/laserfiche/Configuration/Configuration.aspx
+
+![PV76grFBYzTAPWSIMiFrZaFLNdYTyikH7NWiqYWR.png](https://tettra-production.s3.us-west-2.amazonaws.com/0d6efb4f154041e899af17bdcd19c1b5/da03ed883cdd7d743a3fdd74ff62975a/d822b155a4112474fdb7aea5ee22465e/09a2db589f601a66b75b3ab00cdfe769/PV76grFBYzTAPWSIMiFrZaFLNdYTyikH7NWiqYWR.png)
