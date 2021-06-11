@@ -1,23 +1,34 @@
-# CA self gen with open SSL
+######################
+# Become a Certificate Authority
+######################
 
-`openssl genrsa -out private.pem 1024`
+# Generate private key
+openssl genrsa -des3 -out myCA.key 2048
+# Generate root certificate
+openssl req -x509 -new -nodes -key myCA.key -sha256 -days 825 -out myCA.pem
 
-# create public key
+######################
+# Create CA-signed certs
+######################
 
-`openssl rsa -in private.pem -out public.pem -outform PEM -pubout`
+NAME=mydomain.com # Use your own domain name
+# Generate a private key
+openssl genrsa -out $NAME.key 2048
+# Create a certificate-signing request
+openssl req -new -key $NAME.key -out $NAME.csr
+# Create a config file for the extensions
+>$NAME.ext cat <<-EOF
+authorityKeyIdentifier=keyid,issuer
+basicConstraints=CA:FALSE
+keyUsage = digitalSignature, nonRepudiation, keyEncipherment, dataEncipherment
+subjectAltName = @alt_names
+[alt_names]
+DNS.1 = $NAME # Be sure to include the domain name here because Common Name is not so commonly honoured by itself
+DNS.2 = bar.$NAME # Optionally, add additional domains (I've added a subdomain here)
+IP.1 = 192.168.0.13 # Optionally, add an IP address (if the connection which you have planned requires it)
+EOF
+# Create the signed certificate >> got.crt
+openssl x509 -req -in ditto.csr -CA myCA.pem -CAkey myCA.key -CAcreateserial -out ditto.crt -days 825 -sha256 -extfile ditto.ext
 
-# create hash
-
-```
-echo 'data to sign' > example.txt
-
-openssl dgst -sha256 < example.txt > example.sha256
-```
-
-# sign PKCS1.5 <padding><metadata><hash of input>
-
-`openssl dgst -sha256 -sign private.pem -out example.sha256 example.txt`
-
-# verify
-
-`openssl dgst -sha256 -verify public.pem -signature example.sha256 example.txt`
+# create .pfx
+openssl pkcs12 -export -out ditto.pfx -inkey ditto.key -in ditto.crt
