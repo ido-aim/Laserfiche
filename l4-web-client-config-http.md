@@ -40,3 +40,8 @@ Since Chrome has strict SSL cookies.
 follow this KB to config
 
 https://support.laserfiche.com/kb/1014195/you-may-not-be-able-to-sign-in-to-the-laserfiche-web-client-through-chrome-version-84-when-using-an-insecure-connection-http
+
+
+Additional setup for Chrome ver 80 ++
+
+https://support.laserfiche.com/kb/1014094/additional-configuration-for-chrome-80
